@@ -21,12 +21,10 @@ public class MiExcepcion extends Exception {
 		String msg = "";
 
 		switch (this.codigoEx) {
-		case 2:
-			msg = "es par";
+		case 13:
+			msg = "Caracter erroneo";
 			break;
-		case 3:
-			msg = "es impar";
-			break;
+		
 		}
 
 		return msg;
